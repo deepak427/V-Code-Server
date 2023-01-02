@@ -1,0 +1,11 @@
+
+Digit rearrangement method to find next greater number with same set of digits
+Write an algorithm to find out next greater number to given number with the same set of digits Asked in : Morgan Stanley, Makemytrip, Amazon. Ex. Input 1: A = [1, 2, 3] Output 1:[1, 3, 2], Input 2: A = [3, 2, 1] Output 2: [1, 2, 3]
+Given an array, of size n, reverse it
+Given an array, of size n, reverse it. Example: If array, arr = [1,2,3,4,5], after reversing it, the array should be, arr = [5,4,3,2,1] .
+Use bubble sort algorithm to sort array
+You are given an unsorted array consisting of N non-negative integers. Your task is to sort the array in non-decreasing order using the Bubble Sort algorithm.Ex. Bubble Sort implementation for the given array:  [6,2,8,4,10] is array: [2,4,6,8,10]. 
+Maximum Swap
+You are given an integer num. You can swap two digits at most once to get the maximum valued number. Return the maximum valued number you can get.Ex. Input: num = 2736 Output: 7236
+Use Selection sort algorithm to sort array
+You are given an unsorted array consisting of N non-negative integers. Your task is to sort the array in non-decreasing order using the Selection Sort algorithm.Ex. Selection Sort implementation for the given array:  [6,2,8,4,10] is array: [2,4,6,8,10]. 
