@@ -11,7 +11,7 @@ var array;
 var p_out = "";
 
 app.use(function (req, res, next) {
-  const allowedOrigins = ["http://127.0.0.1:5173"];
+  const allowedOrigins = ["http://127.0.0.1:5173","https://v-code-server.onrender.com","https://v-code-server.onrender.com"];
   const origin = req.headers.origin;
 
   if (allowedOrigins.includes(origin)) {
