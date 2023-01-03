@@ -41,8 +41,8 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", function (req, res) {
-  fs.writeFileSync("/tmp/Code.py", "");
-  fs.writeFileSync("/tmp/Code.py", req.body.code);
+  fs.writeFileSync("Code.py", "");
+  fs.writeFileSync("Code.py", req.body.code);
 
   const { spawn } = require("child_process");
 
@@ -61,8 +61,8 @@ app.post("/", function (req, res) {
   var process_2 = spawn("python", ["Add_lines.py"]);
   process_2.stdout.on("data", function (data) {
     try {
-      fs.writeFileSync("/tmp/Code.py", "");
-      fs.writeFileSync("/tmp/Code.py", data.toString());
+      fs.writeFileSync("Code.py", "");
+      fs.writeFileSync("Code.py", data.toString());
       var process_3 = spawn("python", ["Code.py"]);
       process_3.stdout.on("data", function (data) {
         res.json({ result: data.toString(), out: p_out });
